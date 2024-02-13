@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(34, 34, 34);
+}
+.container {
+  position: relative;
+  background-position: 50% 50%;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 00.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(76, 76, 75);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.60);
+}
+.container h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:darkkhaki;
+  margin-bottom: 15px;
+}
+.container input {
+  z-index: 1;
+  background: rgb(34, 34, 34);
+  padding: 8px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid darkkhaki;
+  margin-right: 10px;
+  color: darkkhaki;
+}
+.container input:hover {
+  box-shadow: 0 0 15px darkkhaki;
+}
+.container input:focus {
+  box-shadow: 0 0 15px darkkhaki;
+}
+::placeholder {
+  color: darkkhaki;
+}
+#form button {
+  z-index: 1;
+  background: rgb(34, 34, 34);
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid darkkhaki;
+  color: darkkhaki;
+  margin-left: 10px;
+}
+#form button:hover {
+  box-shadow: 0 0 15px darkkhaki;
+  cursor: pointer;
+}
+#form {
+  margin-bottom: 40px;
+}
+.card {
+  width: 318px;
+  padding: 16px 16px 8px;
+  background:  rgb(34, 34, 34);
+  border-radius: 20px;
+  border: 1px solid darkkhaki;
+}
+.card h4 {
+  width: 286px;
+  border-radius: 10px;
+  border: 1px solid darkkhaki;
+  color: darkkhaki;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 00.1), rgba(255, 255, 255, 0));
+  padding: 10px 10px;
+  margin-bottom: 8px;
+}
+.card button {
+  background: rgb(34, 34, 34);
+  padding: 4px 12px;
+  color: darkkhaki;
+  border-radius: 20px;
+  border: 1px solid darkkhaki;
+  float: right;
+  margin-top: -3px;
+}
+.card button:hover {
+  box-shadow: 0 0 15px darkkhaki;
+  cursor: pointer;
+}
+::selection {
+  background-color: rgb(34, 34, 34);
+}
+/* .bganime {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  filter: blur(1px);
+  animation: animBack 4s linear infinite;
+  z-index: 2;
+}
+@keyframes animBack {
+  0% {
+    top: -10px;
+  }
+  100%{
+    top: 190px;
+  }
+} */
